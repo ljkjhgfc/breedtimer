@@ -12,4 +12,3 @@ public class AnimalEntityMixin {
     private void onSetLoveTicks(int loveTicks, CallbackInfo ci) {
     }
 }
-}
