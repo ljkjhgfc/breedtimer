@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "breedtimer",
+  "version": "${version}",
+  "name": "Breed Timer",
+  "description": "Shows a HUD countdown timer when you breed mobs, with draggable and resizable widgets per mob type.",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/breedtimer/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.breedtimer.client.BreedTimerClient"
+    ]
+  },
+  "mixins": [
+    "breedtimer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
